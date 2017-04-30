@@ -39,7 +39,7 @@ public abstract class Arete {
      * @param s sommet dont on veut le voisin
      * @return Sommet voisin
      */
-    public Sommet getSommet(Sommet s){
+    public Sommet getOppositeSommet(Sommet s){
         return (s==this.s1?this.s1:this.s2);
     }
 }
